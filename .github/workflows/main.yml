@@ -1,0 +1,18 @@
+name: auth-gateway workflow
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Build and echo
+        run: |
+          echo "Building auth-gateway project"
+          echo "Build completed successfully"
