@@ -1,0 +1,25 @@
+{
+  "status": "up",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "auth-gateway",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "up",
+      "last_check": "2024-10-27T10:29:55Z"
+    },
+    "redis": {
+      "status": "up",
+      "last_check": "2024-10-27T10:29:50Z"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "request_latency": {
+      "p50": 0.005,
+      "p95": 0.012,
+      "p99": 0.025
+    }
+  }
+}
